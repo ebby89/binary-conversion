@@ -10,12 +10,11 @@ _Takes a number as input, converts it to a decimal, and displays it back to the 
 
 ## Specs
 
-| Behavior - Plain English                    | Input | Output |
-|---------------------------------------------|-------|--------|
-| convert a single binary digit to a decimal  | 0     | 0      |
-|                                             |       |        |
-|                                             |       |        |
-
+| Behavior - Plain English                                                                                       | Input | Output                                                    |
+|----------------------------------------------------------------------------------------------------------------|-------|-----------------------------------------------------------|
+| only allow user to input '0' and '1' to the input field.  if not '0' or '1', tell user to type a binary digit  | 2     | "Please enter a binary number including only 0's and 1's" |
+| convert a single binary digit to a decimal                                                                     | 0     | 0                                                         |
+| convert multiple digit numbers from binary to decimal                                                          | 101   | 5                                                         |
 
 ## Setup/Installation Requirements
 

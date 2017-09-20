@@ -28,6 +28,9 @@ $(document).ready(function(){
   event.preventDefault();
   var input = $("#number-form [name=input]").val();
   var output = convertToDecimal(input);
+  if (output === null) {
+    output = "Please enter a binary number!"
+  }
 
   $("#output h1").text(output);
   });
